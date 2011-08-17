@@ -1,1 +1,4 @@
 This repo contains the design pattern examples from "Head First Design Patterns" rewritten in C++.
+This code was written for practice and as a result was composed very quickly. 
+Therefore, bugs could certainly be present and many best practices have been ignored.
+For example, I didn't even take the time to seperate the classes out into individual header files etc.
