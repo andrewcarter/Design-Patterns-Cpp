@@ -131,6 +131,7 @@ private:
 	
 };
 
+//! Client
 int main() {
 	RemoteControl* remote = new RemoteControl();
 	
