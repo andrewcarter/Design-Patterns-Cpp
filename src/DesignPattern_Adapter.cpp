@@ -1,6 +1,7 @@
 #include <iostream>
 #include <memory>
 
+//! Target
 class Duck {
 public:
 	virtual void quack() = 0;
@@ -19,6 +20,7 @@ public:
 	virtual void fly() = 0;
 };
 
+//! Adaptee
 class WildTurkey : public Turkey {
 public:
 	void gobble() { std::cout << "Gobble gobble" << std::endl; }
@@ -44,6 +46,7 @@ void testDuck(Duck* duck) {
 	duck->fly();
 }
 
+//! Client
 int main() {
 	std::auto_ptr<MallardDuck> duck (new MallardDuck());
 	
